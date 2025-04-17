@@ -31,7 +31,7 @@ Forte capacidade de liderança técnica, visão sistêmica, e atuação estraté
 
 ### DevOps Team Lead 
 **Envision Tecnologia** — *out/2022 – atual*  
-- Desenvolvimento e sustentação de ambientes críticos para aplicações WEB/API, com .NET Core, React, Angular e Wordpress em Azure, GCP, CloudFlare, Digital Ocean e "on-premise 😩";
+- Desenvolvimento e sustentação de ambientes críticos para aplicações WEB/API, com .NET Core, React, Angular e Wordpress em Azure, GCP, CloudFlare, Digital Ocean e "on-premise {{{(>_<)}}}";
 - Contribuição em arquitetura, boas práticas e DevOps com foco em entrega contínua, infraestrutura como código, PCI, FinOps;
 - Atuação em times ágeis, com colaboração internacional;
 - Evangelizador da cultura DevOps, compartilhamento de conhecimento e introduziu a criação  de um time de plataforma para diminuir cada vez mais o tempo de tração de novos devs e produtos desenvolvidos, além da implemtação de padronização de stacks e processos, para agilizar e simplificar o processo de disponibilização de uma nova aplicação em ambientes de desenvolvimento, staging e ou produção.
@@ -79,7 +79,7 @@ Faculdade Eniac Guarulhos – SP
 
 **Tecnólogo em Adminitração e Negócios**  
 Faculdades Integradas Torricelli  
-*Concluído em 2006*
+*Concluído em 2007*
 
 ---
 
@@ -88,7 +88,7 @@ Faculdades Integradas Torricelli
 - **MCSDT**  
 - **MCSA**
 - **Oracle Cloud Associate Foundations**  
-- Cursos complementares em Cloud, DevOps, Observabilidade e Segurança
+- Cursos complementares em Cloud, DevOps, Observabilidade, Segurança, FinOps e Governança.
 
 ---
 
