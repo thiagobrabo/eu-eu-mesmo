@@ -2,7 +2,7 @@
 
 📍 São Paulo, SP  
 ✉️ thiago.dbrabo@gmail.com 
-🔗 [linkedin.com/in/thiagobrabo](https://www.linkedin.com/in/thiagobrabo)
+🔗 [linkedin.com/in/thiagobrabo](https://www.linkedin.com/in/thiago-brabo-76110575/)
 
 ---
 
