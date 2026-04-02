@@ -4,204 +4,357 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex, nofollow">
-    <title>Portfólio - Thiago Brabo</title>
+    <title>Thiago Brabo | DevOps & SRE Leader</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         :root {
             --bg-color: #ffffff;
-            --text-color: #333333;
-            --heading-color: #111111;
-            --link-color: #007bff;
-            --separator-color: #eeeeee;
+            --text-primary: #1a1a1a;
+            --text-secondary: #4a4a4a;
+            --accent-color: #2563eb;
+            --border-color: #e5e7eb;
+            --card-bg: #f9fafb;
+            --tag-bg: #f3f4f6;
         }
+
         @media (prefers-color-scheme: dark) {
             :root {
-                --bg-color: #121212;
-                --text-color: #e0e0e0;
-                --heading-color: #ffffff;
-                --link-color: #8ab4f8;
-                --separator-color: #333333;
+                --bg-color: #0f172a;
+                --text-primary: #f8fafc;
+                --text-secondary: #94a3b8;
+                --accent-color: #60a5fa;
+                --border-color: #1e293b;
+                --card-bg: #1e293b;
+                --tag-bg: #334155;
             }
         }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Inter', sans-serif;
             line-height: 1.6;
             background-color: var(--bg-color);
-            color: var(--text-color);
+            color: var(--text-primary);
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
         }
+
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
-            background-color: var(--bg-color);
-            padding: 20px 40px;
+            padding: 60px 20px;
         }
-        h1, h2, h3 {
-            color: var(--heading-color);
-            border-bottom: 1px solid var(--separator-color);
-            padding-bottom: 10px;
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
         }
+
         h1 {
-            font-size: 2.5em;
-            text-align: center;
-            border-bottom: none;
-            margin-bottom: 0;
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: -0.025em;
+            margin: 0 0 16px 0;
+            color: var(--text-primary);
         }
-        h2 {
-            font-size: 1.8em;
-            margin-top: 40px;
-        }
-        h3 {
-            font-size: 1.4em;
-            margin-top: 30px;
-            border-bottom: none;
-        }
+
         .contact-info {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 1.1em;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
         }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .contact-item i {
+            width: 16px;
+            height: 16px;
+        }
+
         a {
-            color: var(--link-color);
+            color: var(--accent-color);
             text-decoration: none;
+            transition: opacity 0.2s;
         }
+
         a:hover {
+            opacity: 0.8;
             text-decoration: underline;
         }
-        ul {
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 24px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h2 i {
+            color: var(--accent-color);
+        }
+
+        .summary p {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+
+        .skill-category h3 {
+            font-size: 1rem;
+            margin: 0 0 12px 0;
+            color: var(--text-primary);
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            background: var(--tag-bg);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .experience-item {
+            margin-bottom: 32px;
+            position: relative;
             padding-left: 20px;
-            list-style-type: disc;
+            border-left: 2px solid var(--border-color);
         }
-        li {
-            margin-bottom: 10px;
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
         }
-        hr {
-            border: none;
-            border-top: 2px solid var(--separator-color);
-            margin: 40px 0;
-        }
+
         .job-title {
-            font-weight: bold;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 0;
         }
-        .company-date {
-            font-style: italic;
-            color: var(--text-color);
+
+        .company-name {
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+
+        .date-range {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            margin: 12px 0 0 0;
+            padding-left: 18px;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .github-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .github-stats img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .academic-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 640px) {
+            .academic-grid {
+                grid-template-columns: 1fr;
+            }
+            h1 { font-size: 2.2rem; }
+            .experience-header { flex-direction: column; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Thiago Brabo</h1>
-        <div class="contact-info">
-            📍 São Paulo, SP | ✉️ thiago.dbrabo@gmail.com | 🔗 <a href="https://www.linkedin.com/in/thiago-brabo-76110575/" target="_blank" rel="noopener noreferrer">linkedin.com/in/thiagobrabo</a>
-        </div>
+        <header>
+            <h1>Thiago Brabo</h1>
+            <div class="contact-info">
+                <div class="contact-item"><i data-lucide="map-pin"></i> São Paulo, SP</div>
+                <div class="contact-item"><i data-lucide="mail"></i> <a href="mailto:thiago.dbrabo@gmail.com">thiago.dbrabo@gmail.com</a></div>
+                <div class="contact-item"><i data-lucide="linkedin"></i> <a href="https://www.linkedin.com/in/thiago-brabo-76110575/" target="_blank">linkedin.com/in/thiagobrabo</a></div>
+                <div class="contact-item"><i data-lucide="github"></i> <a href="https://github.com/tbrabo" target="_blank">github.com/tbrabo</a></div>
+            </div>
+        </header>
 
-        <hr>
+        <section class="summary">
+            <h2><i data-lucide="user"></i> Resumo Profissional</h2>
+            <p>
+                Líder Técnico com mais de 15 anos de experiência em <strong>Infraestrutura de TI, DevOps e SRE</strong>. Especialista em automação de ambientes críticos, arquitetura de microsserviços e governança em nuvem (AWS, GCP, Azure).
+            </p>
+            <p>
+                Focado em excelência operacional, implementação de cultura DevOps e otimização de custos (FinOps), liderando times globais na entrega de plataformas escaláveis e seguras.
+            </p>
+        </section>
 
-        <h2>🧑‍💻 Resumo Profissional</h2>
-        <p>
-            Profissional com mais de 15 anos de experiência nas áreas de Infraestrutura de TI, DevOps e SRE, atuando em empresas de grande porte e ambientes críticos. Possui amplo domínio de ferramentas de automação, cloud computing (AWS, GCP, Azure), arquitetura de microsserviços e práticas modernas de engenharia de software.
-        </p>
-        <p>
-            Forte capacidade de liderança técnica, visão sistêmica, e atuação estratégica em ambientes de alta disponibilidade e escalabilidade. Busca constante por excelência operacional, melhoria contínua e colaboração com times multifuncionais.
-        </p>
+        <section>
+            <h2><i data-lucide="github"></i> Atividade no GitHub</h2>
+            <div class="github-stats">
+                <img src="https://github-readme-stats.vercel.app/api?username=tbrabo&show_icons=true&theme=transparent&hide_border=true&title_color=2563eb&icon_color=2563eb&text_color=4a4a4a&border_radius=10#gh-light-mode-only" alt="GitHub Stats">
+                <img src="https://github-readme-stats.vercel.app/api?username=tbrabo&show_icons=true&theme=transparent&hide_border=true&title_color=60a5fa&icon_color=60a5fa&text_color=94a3b8&border_radius=10#gh-dark-mode-only" alt="GitHub Stats">
+                
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tbrabo&layout=compact&theme=transparent&hide_border=true&title_color=2563eb&text_color=4a4a4a&border_radius=10#gh-light-mode-only" alt="Top Languages">
+                <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tbrabo&layout=compact&theme=transparent&hide_border=true&title_color=60a5fa&text_color=94a3b8&border_radius=10#gh-dark-mode-only" alt="Top Languages">
+            </div>
+        </section>
 
-        <hr>
+        <section>
+            <h2><i data-lucide="cpu"></i> Competências Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Cloud & Plataforma</h3>
+                    <div class="skill-tags">
+                        <span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">Azure</span><span class="tag">Kubernetes</span><span class="tag">Docker</span><span class="tag">Istio</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Infra as Code</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Terraform</span><span class="tag">Ansible</span><span class="tag">OpenTofu</span><span class="tag">Pulumi</span><span class="tag">Packer</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>CI/CD & GitOps</h3>
+                    <div class="skill-tags">
+                        <span class="tag">GitHub Actions</span><span class="tag">ArgoCD</span><span class="tag">GitLab CI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Observabilidade</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Prometheus</span><span class="tag">Grafana</span><span class="tag">Datadog</span><span class="tag">New Relic</span><span class="tag">ELK</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <h2>🛠️ Competências Técnicas</h2>
-        <ul>
-            <li><strong>Cloud:</strong> AWS, GCP, Azure, Oracle Cloud</li>
-            <li><strong>Containers e Orquestração:</strong> Docker, Kubernetes, Helm, Istio</li>
-            <li><strong>Infraestrutura como Código:</strong> Terraform, Ansible, Packer, OpenTofu, Pulumi</li>
-            <li><strong>CI/CD e GitOps:</strong> GitHub Actions, GitLab CI, ArgoCD</li>
-            <li><strong>Observabilidade:</strong> Prometheus, Grafana, ELK, Datadog, New Relic, PRTG, Zabbix</li>
-            <li><strong>Linguagens:</strong> Python, Shell Script, PowerShell Script</li>
-            <li><strong>Integração e Mensageria:</strong> APIs REST, Kafka, RabbitMQ, Pub/Sub</li>
-            <li><strong>Ferramentas de DevOps:</strong> Git, GitHub, Azure DevOps, SonarQube, Vault, Secret Managers, Cast AI, Spot IO...</li>
-        </ul>
+        <section>
+            <h2><i data-lucide="briefcase"></i> Experiência Profissional</h2>
 
-        <hr>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="job-title">DevOps Team Lead</h3>
+                    <span class="date-range">out/2022 – atual</span>
+                </div>
+                <div class="company-name">Envision Tecnologia</div>
+                <ul>
+                    <li>Liderança de time de plataforma focado na redução do tempo de tração para novos desenvolvedores.</li>
+                    <li>Arquitetura de infraestrutura crítica em ambientes multi-cloud (Azure, GCP, CloudFlare).</li>
+                    <li>Padronização de stacks e implementação de processos de entrega contínua e FinOps.</li>
+                </ul>
+            </div>
 
-        <h2>💼 Experiência Profissional</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="job-title">DevOps Senior</h3>
+                    <span class="date-range">abr/2021 – nov/2022</span>
+                </div>
+                <div class="company-name">Octadesk</div>
+                <ul>
+                    <li>Implementação de observabilidade em mensageria (RabbitMQ) e autoscaling baseado em eventos com Keda.</li>
+                    <li>Atuação em squads multidisciplinares focados em segurança e análise de dados.</li>
+                </ul>
+            </div>
 
-        <h3><span class="job-title">DevOps Team Lead</span><br><span class="company-date">Envision Tecnologia — out/2022 – atual</span></h3>
-        <ul>
-            <li>Desenvolvimento e sustentação de ambientes críticos para aplicações WEB/API, com .NET Core, React, Angular e Wordpress em Azure, GCP, CloudFlare, Digital Ocean e on-premise.</li>
-            <li>Contribuição em arquitetura, boas práticas e DevOps com foco em entrega contínua, infraestrutura como código, PCI e FinOps.</li>
-            <li>Atuação em times ágeis, com colaboração internacional.</li>
-            <li>Disseminei a cultura DevOps e o compartilhamento de conhecimento, introduzindo a criação de um time de plataforma para diminuir o tempo de tração de novos desenvolvedores e produtos, além da implementação de padronização de stacks e processos para agilizar e simplificar a disponibilização de novas aplicações.</li>
-        </ul>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3 class="job-title">Líder de Infraestrutura</h3>
+                    <span class="date-range">jan/2016 – abr/2021</span>
+                </div>
+                <div class="company-name">Envision Tecnologia</div>
+                <ul>
+                    <li>Definição de governança, segurança e arquitetura para infraestrutura híbrida.</li>
+                    <li>Liderança na implementação de conformidade PCI.</li>
+                </ul>
+            </div>
+        </section>
 
-        <h3><span class="job-title">DevOps Senior</span><br><span class="company-date">Octadesk — abr/2021 – nov/2022</span></h3>
-        <ul>
-            <li>Atuação em squads multidisciplinares, com aplicação de boas práticas de desenvolvimento, segurança e metodologia aplicada a análise de dados.</li>
-            <li>Atuação em ambientes cloud (GCP e AZURE), com boas práticas de IaC, observabilidade e testes automatizados.</li>
-            <li>Aplicação de observabilidade em aplicação de mensageria RabbitMQ e implementação de Keda para autoscaling a partir de eventos.</li>
-        </ul>
+        <section>
+            <h2><i data-lucide="graduation-cap"></i> Formação & Certificações</h2>
+            <div class="academic-grid">
+                <div class="skill-category">
+                    <h3>Acadêmico</h3>
+                    <p><strong>Redes de Computadores</strong><br><small>Faculdade Eniac (2014)</small></p>
+                    <p><strong>Administração e Negócios</strong><br><small>F. Torricelli (2007)</small></p>
+                </div>
+                <div class="skill-category">
+                    <h3>Certificações</h3>
+                    <div class="skill-tags">
+                        <span class="tag">MCSA</span>
+                        <span class="tag">MCSDT</span>
+                        <span class="tag">Oracle Cloud Associate</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <h3><span class="job-title">Líder de Infraestrutura</span><br><span class="company-date">Envision Tecnologia — jan/2016 – abr/2021</span></h3>
-        <ul>
-            <li>Retornei à empresa para liderar o time de Infraestrutura e implementar novos processos de gestão.</li>
-            <li>Definição de arquitetura, segurança e governança de serviços.</li>
-            <li>Atuação com implementação de PCI e infraestrutura híbrida on-premise e nuvem.</li>
-        </ul>
-
-        <h3><span class="job-title">Analista de Infraestrutura Pleno</span><br><span class="company-date">Argo IT — abr/2015 – dez/2015</span></h3>
-        <ul>
-            <li>Gerenciamento de Ambientes Web, Infraestrutura e Servidores; planejamento e dimensionamento de servidores de Banco de Dados (SQL e MySQL).</li>
-            <li>Tarefas de SysAdmin: Administração de Servidores e Serviços, gestão de configuração, gerenciamento de redes, suporte nível 2 e 3.</li>
-            <li>Participação ativa em processo de PCI e arquitetura de infraestrutura.</li>
-        </ul>
-
-        <h3><span class="job-title">Analista de Infraestrutura e Suporte Pleno</span><br><span class="company-date">Envision Tecnologia — abr/2012 – fev/2015</span></h3>
-        <ul>
-            <li>Acompanhei a empresa em seu início de produção, uma software house desenvolvendo e integrando sistemas em fase inicial.</li>
-            <li>Desenvolvimento de arquiteturas de redes e aquisição de equipamentos e serviços para a configuração do primeiro ambiente produtivo on-premise.</li>
-            <li>Migração e expansão do ambiente para um colocation na Alog DataCenters.</li>
-            <li>Atuação em todos os níveis de suporte (N1, N2 e 3).</li>
-            <li>Gestão e consultoria de documentação e configuração, desenho de arquitetura e implementação em clientes que adquiriram código fonte ou desejavam ambientes dedicados.</li>
-        </ul>
-
-        <h3><span class="job-title">Analista de Infraestrutura e Suporte</span><br><span class="company-date">Aditex Ind Aditivos Quimicos — set/2007 – abr/2012</span></h3>
-        <ul>
-            <li>Primeiro emprego na área de Tecnologia, com os primeiros desafios e aprendizados da carreira.</li>
-            <li>Implementação de rede com gerenciamento de usuários via Active Directory, DNS, DHCP, uso de GPOs e WSUS.</li>
-            <li>Proxy gerenciado com IsaServer e posteriormente migrado para uma solução Linux com IpTables.</li>
-            <li>Interconexão via VPN entre fábricas, depósitos e escritórios em território nacional para uso de sistema ERP.</li>
-        </ul>
-
-        <hr>
-
-        <h2>🎓 Formação Acadêmica</h2>
-        <p>
-            <strong>Tecnólogo em Redes de Computadores</strong><br>
-            Faculdade Eniac Guarulhos – SP<br>
-            <em>Concluído em 2014</em>
-        </p>
-        <p>
-            <strong>Tecnólogo em Administração e Negócios</strong><br>
-            Faculdades Integradas Torricelli<br>
-            <em>Concluído em 2007</em>
-        </p>
-
-        <hr>
-
-        <h2>📜 Certificações</h2>
-        <ul>
-            <li>MCSDT</li>
-            <li>MCSA</li>
-            <li>Oracle Cloud Associate Foundations</li>
-            <li>Cursos complementares em Cloud, DevOps, Observabilidade, Segurança, FinOps e Governança.</li>
-        </ul>
-
-        <hr>
-
-        <h2>🌐 Idiomas</h2>
-        <ul>
-            <li><strong>Português:</strong> Nativo</li>
-            <li><strong>Inglês:</strong> Técnico para leitura e escrita; conversação básica</li>
-            <li><strong>Espanhol:</strong> Técnico para leitura e escrita; conversação básica</li>
-        </ul>
+        <section>
+            <h2><i data-lucide="languages"></i> Idiomas</h2>
+            <div class="skill-tags">
+                <span class="tag">Português (Nativo)</span>
+                <span class="tag">Inglês (Técnico)</span>
+                <span class="tag">Espanhol (Técnico)</span>
+            </div>
+        </section>
     </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
+
