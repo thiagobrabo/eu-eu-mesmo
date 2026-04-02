@@ -24,15 +24,18 @@ Profissional com 15+ anos em Infraestrutura, DevOps e SRE, com atuação em ambi
 - Sustentação e desenvolvimento de ambientes WEB/API (.NET Core, React, Angular, Wordpress) em Azure, GCP, Cloudflare, DigitalOcean e on‑premises.
 - Arquitetura e boas práticas focadas em entrega contínua, IaC, PCI e FinOps.
 - Criação e liderança de time de plataforma para acelerar onboarding de devs e produtos.
+- Implementação e gerencia de projetos de PCI e LGPD.
 
 ### DevOps Senior — Octadesk (abr/2021 – nov/2022)
 - Squads multidisciplinares, observabilidade, IaC e testes automatizados.
-- Implementação de KEDA para autoscaling reativo a eventos.
+- Implementação de conceitos de multicluster para atendimento de muito regiões, gerando máxima redundância, escalabilidade, performance e resiliência dos produtos SaaS.
 
-### Líder de Infraestrutura — Envision Tecnologia (jan/2016 – abr/2021)
-- Liderança do time de infraestrutura; arquitetura, segurança e governança; projetos de migração e PCI.
+### Especialista em Infraestrutura — Envision Tecnologia (jan/2016 – abr/2021)
+- Liderança do time de infraestrutura; arquitetura, segurança e governança;
+- Gerenciamento de projetos de migração de ambiente SaaS para estruturas próprias de clientes como bancos e outros clientes corporativos.
 
-(Resumo das demais posições mantido — detalhe sob demanda)
+### Analista de Infraestrutura Sênior - Argo It (abr/2015 - dez/2015)
+- Analista responsável por toda a estrutura de produtos B2B, B2C, em formato SaaS, arquitetura, segurança e monitoramento.
 
 ---
 ## Formação
