@@ -7,33 +7,6 @@
 Profissional com 15+ anos em Infraestrutura, DevOps e SRE, com atuação em ambientes críticos e de alta disponibilidade. Forte liderança técnica, visão sistêmica e foco em excelência operacional, automação e melhoria contínua.
 
 ---
-## Indicadores do Git
-<!-- Badges discretas (live) -->
-![Último commit](https://img.shields.io/github/last-commit/thiagobrabo/eu-eu-mesmo?style=flat-square)
-![Contribuidores](https://img.shields.io/github/contributors/thiagobrabo/eu-eu-mesmo?style=flat-square)
-![PRs (abertas)](https://img.shields.io/github/issues-pr/thiagobrabo/eu-eu-mesmo?style=flat-square)
-![Stars](https://img.shields.io/github/stars/thiagobrabo/eu-eu-mesmo?style=flat-square)
-
-Resumo numérico (dados agregados / parciais):
-- Repositórios públicos: 8
-- Commits (contagem parcial): personal-finance — 3 commits
-- Pull requests (total): a calcular
-- Pull requests por você: a calcular
-- Reviews realizadas: a calcular
-- Contributors (soma parcial): detectados 1 contributor no repo personal-finance
-- Stars totais (metadados): 0
-
-Repositórios públicos detectados (lista parcial):
-- thiagobrabo/personal-finance
-- thiagobrabo/personal-finance-firestore
-- thiagobrabo/terraform-cloud
-- thiagobrabo/eu-eu-mesmo
-- thiagobrabo/financiamento-simples
-- thiagobrabo/scripts_setup_system
-- thiagobrabo/poc-gitops
-- thiagobrabo/poc-atlantis
-
----
 ## Competências Técnicas
 - Cloud: AWS · GCP · Azure · Oracle Cloud  
 - Containers & Orquestração: Docker · Kubernetes · Helm · Istio  
