@@ -60,9 +60,3 @@ MCSDT · MCSA · Oracle Cloud Associate Foundations · Cursos em Cloud, DevOps, 
 
 ## Idiomas
 Português (nativo) · Inglês (técnico) · Espanhol (técnico)
-
----
-Notas:
-- Removi emojis e usei badges discretas para manter um visual mais profissional e moderno.
-- Posso trocar os badges por ícones SVG minimalistas (octicons), ou por texto puro se preferir zero imagens.
-- Posso também incluir seções extras: projetos-chave (com links), artigos/talks, e um gráfico compacto de atividade (commit activity) se desejar.
