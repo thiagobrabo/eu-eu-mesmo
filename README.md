@@ -95,7 +95,7 @@ Faculdades Integradas Torricelli
 ## 🌐 Idiomas
 
 - **Português:** Nativo  
-- **Inglês:** Básico (técnico – leitura, escrita e conversação)
+- **Inglês:** Básico (técnico – leitura, escrita)
 - **Espanhol:** Básico (técnico – leitura, escrita e conversação)
 
 ---
