@@ -14,13 +14,24 @@ Profissional com 15+ anos em Infraestrutura, DevOps e SRE, com atuação em ambi
 ![PRs (abertas)](https://img.shields.io/github/issues-pr/thiagobrabo/eu-eu-mesmo?style=flat-square)
 ![Stars](https://img.shields.io/github/stars/thiagobrabo/eu-eu-mesmo?style=flat-square)
 
-Resumo numérico (posso preencher automaticamente):
-- Commits: [COMMIT_COUNT]
-- Pull requests (total): [PR_COUNT]
-- Pull requests por você: [PR_BY_YOU]
-- Reviews realizadas: [REVIEWS_BY_YOU]
-- Contributors: [CONTRIBUTORS_COUNT]
-- Repositórios públicos (sua conta): [PUBLIC_REPOS_COUNT]
+Resumo numérico (dados agregados / parciais):
+- Repositórios públicos: 8
+- Commits (contagem parcial): personal-finance — 3 commits
+- Pull requests (total): a calcular
+- Pull requests por você: a calcular
+- Reviews realizadas: a calcular
+- Contributors (soma parcial): detectados 1 contributor no repo personal-finance
+- Stars totais (metadados): 0
+
+Repositórios públicos detectados (lista parcial):
+- thiagobrabo/personal-finance
+- thiagobrabo/personal-finance-firestore
+- thiagobrabo/terraform-cloud
+- thiagobrabo/eu-eu-mesmo
+- thiagobrabo/financiamento-simples
+- thiagobrabo/scripts_setup_system
+- thiagobrabo/poc-gitops
+- thiagobrabo/poc-atlantis
 
 ---
 ## Competências Técnicas
